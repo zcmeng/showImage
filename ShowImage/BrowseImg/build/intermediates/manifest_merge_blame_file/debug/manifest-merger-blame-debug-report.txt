@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jcc.example.com.browseimg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:5:5-66
+11-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:6:5-78
+12-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:7:5-75
+13-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+14-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:8:5-85
+14-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:8:22-83
+15
+16    <application
+16-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:10:5-28:19
+17        android:name="jcc.example.com.browseimg.JApp"
+17-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:14:9-29
+18        android:allowBackup="true"
+18-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:11:9-35
+19        android:icon="@mipmap/ic_launcher"
+19-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:16:9-35
+23        android:theme="@style/AppTheme" >
+23-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:17:9-40
+24        <activity android:name="jcc.example.com.browseimg.MainActivity" >
+24-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:18:9-24:20
+24-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:18:19-47
+25            <intent-filter>
+25-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:19:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:20:17-68
+26-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:22:17-76
+28-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:25:9-27:58
+32            android:name="jcc.example.com.browseimg.JBrowseImgActivity"
+32-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:25:19-53
+33            android:screenOrientation="portrait"
+33-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:26:13-49
+34            android:theme="@style/FullscreenTransTheme" />
+34-->H:\Android\GitHubProject\ShowImage\BrowseImg\src\main\AndroidManifest.xml:27:13-56
+35    </application>
+36
+37</manifest>

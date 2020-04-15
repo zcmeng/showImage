@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color transparent
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id iv_pic
+id iv_small
+id iv_test
+id iv_test1
+id iv_test2
+id iv_test3
+id rl_root
+id v_cover
+id vp_pager
+layout activity_main
+layout fragment_show_img
+layout item_preview_img
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style FullscreenActionBarStyle
+style FullscreenTransTheme
