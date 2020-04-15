@@ -17,7 +17,7 @@ import java.util.List;
 import jcc.example.com.browseimg.util.JImageShowUtil;
 import jcc.example.com.browseimg.util.JMatrixUtil;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class showImageActivity extends AppCompatActivity implements View.OnClickListener{
 
     private ImageView mIvTest;
     private ImageView mIvTest1;
